@@ -91,10 +91,10 @@ body{
   height: 50vh;
   position: relative;
   overflow: hidden;
-  @media(min-width: 600px) {
-    height: 100vh;
-  }
+  @media(min-width: 600px) 
+  height: 100vh;
 }
+
 
 video {
   object-fit: cover; // Set the magic

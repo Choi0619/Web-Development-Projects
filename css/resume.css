@@ -90,3 +90,8 @@ body{
   color: blue;
   text-decoration: underline;
 }
+
+img{
+	width: 40px;
+	float: left;
+}
