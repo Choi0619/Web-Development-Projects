@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/playlist.css">
   <title>Choi's Playlist</title>
 </head>
 
 <body>
-  <h3>Pages</h3>
+  <div class="header">
   <ul>
-    <li>Go back to my main page <a href="index.html">Main Page</a></li>
-    <li>Visit my music playlist! <a href="playlist.html">My Music Playlist</a></li>
-    <li>Look at my resume! <a href="resume.html">Choi's Resume</a></li>
+    <li><a href="index.html">Main Page</a></li>
+    <li><a href="resume.html">Choi's Resume</a></li>
+	<li><a href="playlist.html">My Music Playlist</a></li>
   </ul>
+  </div>
   
   <section>
   <h1> Welcome to My Music Playlist!</h1>
@@ -33,6 +35,18 @@
   <p><a href= "https://www.youtube.com/watch?v=ZKWJ7zrg2Ao" target="_blank">The Millennial Club - like i do</a></p>
   <p><a href= "https://www.youtube.com/watch?v=wXhTHyIgQ_U" target="_blank">Post Malone - Circles</a></p>
   <p><a href= "https://www.youtube.com/watch?v=kOCkne-Bku4" target="_blank">Lauv - Paris in the Rain</a></p>
+  </section>
+  
+  <section class="video-container">
+  <video src="video/short video.mp4" autoplay loop playsinline muted></video>
+  <div class="callout">
+    <h1>Object-Fit 👍</h1>
+    <div>The CSS Background-Size: Cover for Inline Images &amp; Videos</div>
+  </div>
+  <div class="support">
+     <a href="http://caniuse.com/#search=object-fit">Browser Support</a><br>
+     <a href="https://github.com/jonathantneal/fitie">Need to support IE &amp; Edge?</a>
+  </div>
   </section>
   
 </body>

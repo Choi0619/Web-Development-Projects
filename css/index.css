@@ -1,3 +1,98 @@
 h1{
-font-family: 'Monoton', cursive;
+  font-family: 'Monoton', cursive;
+  padding: 70px 0px 30px 0px;
+  font-size: 2.5em;
+  color: black;
+  margin: auto;
+  text-decoration: underline;
 }
+
+h3 {
+  color:purple;
+  font-size: 1.5em;
+}
+
+h4 {
+  color: black;
+}
+
+li {
+  font-family: 'Cormorant Garamond';
+  color: rgb(100,20,20);
+}
+
+p{
+  font-family: 'Cormorant Garamond';
+  font-size: 1.05em;
+  color: rgb(60,40,40);
+}
+
+section{
+  margin-bottom: 50px;
+}
+
+.header {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+  margin: auto;
+  left: 0%;
+  font-size = 1.0em;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444444;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header li{
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  float: left;
+  vertical-align: middle;
+}
+
+.header li a{
+  color: white
+}
+
+#top {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  float: left;
+  vertical-align: middle;
+}
+
+body{
+  line-height: 1;
+  font-family: NanumGothic,sans-serif;
+  color: #666;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  border-left: none !important;
+  border-right: none !important;
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(250,250,250);
+}
+
+.this {
+	color: red;
+	font-style: italic;
+}
+
