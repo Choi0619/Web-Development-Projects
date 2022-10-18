@@ -86,18 +86,16 @@ body{
   background-color: rgb(250,250,250);
 }
 
-
 .video-container {
   height: 50vh;
   position: relative;
   overflow: hidden;
+  @media(min-width: 600px) 
   height: 100vh;
 }
 
-
 video {
-  object-fit: cover;
-  position: absolute;
+  object-fit: cover; 
   height: 100%;
   width: 100%;
   top: 0;

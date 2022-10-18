@@ -91,7 +91,7 @@ body{
   text-decoration: underline;
 }
 
-img{
-	width: 40px;
+.icon{
+	width: 20px;
 	float: left;
 }
