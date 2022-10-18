@@ -91,7 +91,6 @@ body{
   height: 50vh;
   position: relative;
   overflow: hidden;
-  @media(min-width: 600px) 
   height: 100vh;
 }
 
@@ -117,7 +116,7 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(255, 255, 255 .2);
+  background: rgba(255, 255, 255, 0.2);
   z-index: 1;
 }
 
@@ -143,7 +142,6 @@ video {
   text-align: right;
   position: relative;
   z-index: 10;
-  &:hover:before
   width: 100%;
 }
 
