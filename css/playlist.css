@@ -97,7 +97,7 @@ body{
 
 
 video {
-  object-fit: cover; // Set the magic
+  object-fit: cover;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -117,7 +117,7 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(black, .2);
+  background: rgba(255, 255, 255 .2);
   z-index: 1;
 }
 
@@ -143,11 +143,10 @@ video {
   text-align: right;
   position: relative;
   z-index: 10;
-    &:hover:before {
-      width: 100%;
-    }
-  }
+  &:hover:before
+  width: 100%;
 }
+
 
 
 
