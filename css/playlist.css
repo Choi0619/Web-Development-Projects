@@ -6,7 +6,6 @@ h1{
   margin: auto;
 }
 
-
 h3 {
   color:purple;
   font-size: 1.3em;
@@ -90,8 +89,12 @@ body{
   height: 50vh;
   position: relative;
   overflow: hidden;
-  @media(min-width: 600px) 
-  height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
 }
 
 video {
@@ -142,8 +145,3 @@ video {
   z-index: 10;
   width: 100%;
 }
-
-
-
-
-
