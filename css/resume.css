@@ -23,17 +23,20 @@ h2 {
   color: brown;
   text-decoration: underline;
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
 
 h3 {
   color:purple;
   padding: 0px 0px 5px 0px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h4 {
   color: black;
+  padding: 5px 0px 10px 0px;
+  color: rgb(50, 50, 50);
 }
 
 div {
@@ -49,8 +52,8 @@ li {
 }
 
 p{
-	font-size: 15px;
-	padding: 0px 0px 15px 0px;
+	font-size: 16px;
+	padding: 10px 0px 15px 0px;
 }
 
 p, li {
@@ -59,7 +62,7 @@ p, li {
 }
 
 section{
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .header {
