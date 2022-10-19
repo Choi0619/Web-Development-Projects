@@ -119,8 +119,8 @@ body{
 
 video {
   object-fit: cover; 
-  height: 2400px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
   top: 0;
   left: 0;
 }
