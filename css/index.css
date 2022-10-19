@@ -1,6 +1,6 @@
 h1{
   font-family: 'Monoton', cursive;
-  padding: 70px 0px 30px 0px;
+  padding: 10% 0 5% 0;
   font-size: 2.5em;
   color: black;
   margin: auto;
@@ -10,6 +10,9 @@ h1{
 h3 {
   color:purple;
   font-size: 1.5em;
+  padding: 5% 0 3% 0;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
 }
 
 h4 {
@@ -19,12 +22,17 @@ h4 {
 li {
   font-family: 'Cormorant Garamond';
   color: rgb(100,20,20);
+  padding: 0 0 1% 0;
+  list-style: square;
+  list-style: inside;
 }
 
 p{
   font-family: 'Cormorant Garamond';
-  font-size: 1.05em;
+  font-size: 1.1em;
   color: rgb(60,40,40);
+  padding: 0 0 1% 0;
+  color: black;
 }
 
 section{
@@ -84,7 +92,7 @@ body{
   vertical-align: baseline;
   border-left: none !important;
   border-right: none !important;
-  width: 980px;
+  width: 30%;
   margin: 0 auto;
   position: relative;
   background-image: url("../image/background.jpg");
@@ -97,6 +105,7 @@ body{
 }
 
 img {
-	width: 400px;
+	width: 50%;
+	padding-bottom: 3%;
 }
 
