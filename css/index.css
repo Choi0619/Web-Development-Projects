@@ -108,11 +108,11 @@ body{
 }
 
 .this {
-	color: red;
-	font-style: italic;
+  color: red;
+  font-style: italic;
 }
 
 img {
-	width: 50%;
-	padding-bottom: 3%;
+  width: 50%;
+  padding-bottom: 3%;
 }
