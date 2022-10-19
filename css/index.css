@@ -9,7 +9,7 @@ h1{
 
 h3 {
   color:purple;
-  font-size: 1.5em;
+  font-size: 2.0em;
   padding: 5% 0 3% 0;
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight: bold;
@@ -36,11 +36,11 @@ p{
 }
 
 section{
-  margin-bottom: 50px;
+  margin-bottom: 3%;
 }
 
 .header {
-  height: 40px;
+  height: 3%;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -71,6 +71,7 @@ section{
 .header li a{
   color: white
 }
+
 
 #top {
   display: block;

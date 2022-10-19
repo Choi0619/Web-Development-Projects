@@ -5,13 +5,31 @@ h1{
   margin: auto;
 }
 
+.name {
+	padding: 40px 0px 20px 0px;
+	font-size: 2.0em;
+	font-family: Georgia, serif;
+	font-weight: bold;
+
+}
+
+.resume {
+	font-size: 3.5em;
+}
+
+
+
 h2 {
   color: brown;
   text-decoration: underline;
+  font-size: 30px;
+  padding-bottom: 20px;
 }
 
 h3 {
   color:purple;
+  padding: 0px 0px 5px 0px;
+  font-size: 25px;
 }
 
 h4 {
@@ -20,6 +38,19 @@ h4 {
 
 div {
   border-radius: 5px;
+}
+
+li {
+  font-family: 'Cormorant Garamond';
+  color: rgb(100,20,20);
+  padding: 0 0 1% 0;
+
+  list-style: inside;
+}
+
+p{
+	font-size: 15px;
+	padding: 0px 0px 15px 0px;
 }
 
 p, li {
@@ -82,17 +113,12 @@ body{
   background-size: cover;
 }
 
-#icon{
-  width: 20px;
+.icon{
+  width: 25px;
   float: left;
 }
 
 #linked{
   color: blue;
   text-decoration: underline;
-}
-
-.icon{
-	width: 20px;
-	float: left;
 }
