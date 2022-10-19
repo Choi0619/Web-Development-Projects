@@ -98,6 +98,14 @@ section{
   color: white
 }
 
+.header ul li:hover{
+  background-color: #252525;
+}
+
+#onpage{
+  background-color: #000;
+}
+
 body{
   line-height: 1;
   font-family: NanumGothic,sans-serif;
@@ -125,3 +133,4 @@ body{
   color: blue;
   text-decoration: underline;
 }
+

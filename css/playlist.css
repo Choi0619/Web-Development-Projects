@@ -69,6 +69,14 @@ section{
   color: white
 }
 
+.header ul li:hover{
+  background-color: #252525;
+}
+
+#onpage{
+  background-color: #000;
+}
+
 #top {
   display: block;
   text-align: center;
