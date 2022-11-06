@@ -1,10 +1,5 @@
 h1{
   font-family: 'Monoton', cursive;
-  padding: 70px 0px 20px 0px;
-  color: black;
-  margin: auto;
-  font-size: 2.5em;
-  text-decoration: underline;
 }
 
 .name {
@@ -21,21 +16,14 @@ h1{
 h2 {
   color: brown;
   text-decoration: underline;
-  font-size: 30px;
-  padding-top: 10px;
-  padding-bottom: 15px;
 }
 
 h3 {
   color:purple;
-  padding: 20px 0px 5px 0px;
-  font-size: 20px;
 }
 
 h4 {
   color: black;
-  padding: 5px 0px 10px 0px;
-  color: rgb(50, 50, 50);
 }
 
 div {
@@ -46,7 +34,6 @@ li {
   font-family: 'Cormorant Garamond';
   color: rgb(100,20,20);
   padding: 0 0 1% 0;
-
   list-style: inside;
 }
 
@@ -148,4 +135,192 @@ body{
 
 .card:hover {
   transform: scale(1.02);
+}
+
+
+.video-container {
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+
+video {
+  object-fit: cover; 
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.video-container:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 1;
+}
+
+.callout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.support {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  text-align: right;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}
+
+.main_page p{
+  font-family: 'Cormorant Garamond';
+  font-size: 1.1em;
+  color: rgb(60,40,40);
+  padding: 1.5% 0 1% 0;
+  color: black;
+}
+
+.main_page h1{
+  font-family: 'Monoton', cursive;
+  padding: 10% 0 5% 0;
+  font-size: 2.5em;
+  color: black;
+  margin: auto;
+  text-decoration: underline;
+}
+
+.main_page h3 {
+  color:purple;
+  font-size: 2.0em;
+  padding: 1% 0 3% 0;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+}
+
+
+.main_page section{
+  margin-bottom: 3%;
+}
+
+.main_page .this {
+  color: red;
+  font-style: italic;
+}
+
+.main_page img {
+  width: 70%;
+  padding-bottom: 3%;
+}
+
+.resume_page h1{
+  font-family: 'Monoton', cursive;
+  padding: 70px 0px 0px 0px;
+  color: black;
+  margin: auto;
+}
+
+.resume_page h2 {
+  color: brown;
+  text-decoration: underline;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.resume_page h3 {
+  color:purple;
+  padding: 0px 0px 5px 0px;
+  font-size: 20px;
+}
+
+.resume_page h4 {
+  color: black;
+  padding: 5px 0px 10px 0px;
+  color: rgb(50, 50, 50);
+}
+
+.resume_page div {
+  border-radius: 5px;
+}
+
+.resume_page li {
+  font-family: 'Cormorant Garamond';
+  color: rgb(100,20,20);
+}
+
+.resume_page p{
+  font-size: 16px;
+  padding: 10px 0px 15px 0px;
+}
+
+.resume_page p, li {
+  font-family: 'Cormorant Garamond';
+  color: rgb(100,20,20)
+}
+
+.resume_page section{
+  margin-bottom: 30px;
+}
+
+.playlist_page h1{
+  font-family: "Comic Sans MS";
+  font-size: 40px;
+  padding: 100px 0px 40px 0px;
+  color: black;
+  margin: auto;
+  text-decoration: underline;
+}
+
+.playlist_page h2 {
+  font-size: 30px;
+  padding: 20px 0px 10px 0px;
+  color: red;
+  font-style: italic;
+}
+
+.playlist_page h3 {
+  color:purple;
+  font-size: 20px;
+  padding: 20px 0px 10px 0px;
+}
+
+.playlist_page h4 {
+  color: black;
+}
+
+.playlist_page p {
+  font-family: 'Cormorant Garamond';
+  font-size: 15px;
+  padding: 10px 0px 10px 0px;
+}
+
+.playlist_page section{
+  margin-bottom: 50px;
 }
