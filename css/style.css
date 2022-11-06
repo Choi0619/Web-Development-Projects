@@ -114,6 +114,7 @@ body{
 .icon{
   width: 25px;
   float: left;
+  margin-right: 10px;
 }
 
 #linked{
@@ -251,7 +252,7 @@ video {
   color: brown;
   text-decoration: underline;
   font-size: 30px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 15px;
 }
 
