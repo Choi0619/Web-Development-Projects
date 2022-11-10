@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1{
   font-family: 'Monoton', cursive;
 }
@@ -157,8 +161,9 @@ video {
   left: 0;
 }
 
-* {
-  box-sizing: border-box;
+.audio-container {
+  display: flex;
+  margin-bottom: 30px;
 }
 
 .video-container:after {
@@ -322,5 +327,10 @@ video {
 }
 
 .playlist_page section{
+  margin-bottom: 50px;
+}
+
+.playlist .audio_play {
+  padding-bottom: 50px;
   margin-bottom: 50px;
 }
