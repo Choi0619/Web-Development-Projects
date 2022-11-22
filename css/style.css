@@ -101,7 +101,7 @@ body{
   font-family: NanumGothic,sans-serif;
   color: #666;
   padding: 0;
-  border: 0;
+  border: 80px;
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
@@ -145,12 +145,6 @@ body{
   height: 50vh;
   position: relative;
   overflow: hidden;
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
-  }
 }
 
 video {
@@ -334,3 +328,20 @@ video {
   padding-bottom: 50px;
   margin-bottom: 50px;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+	font-size: 70%;
+	width: 480px;
+	background-image: url("../image/small_background.png");
+	background-size: cover;
+	background-attachment: fixed;
+  }
+  h1 {font-size: 20px;}
+  .playlist_page h1{
+	  font-size: 1.6rem;
+  }
+}
+
+
