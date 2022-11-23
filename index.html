@@ -3,9 +3,12 @@
 <head>
   <link rel="shortcut icon" type="image/x-icon" href="image/sad.ico" />
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Choi's Website</title>
+  <title>Main Page</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script type="module" src="js/script.js"></script>
 </head>
 
 <body class="main_page">
@@ -17,18 +20,18 @@
   </ul>
   </div>
   
-    <h1>Welcome to Gyuhwan Choi's Website!</h1>
-	<section class="card">
-    <h3> About me </h3>
-    <ul>
-      <li>My Korean name is Gyuhwan, but you can call me Jacob.</li>
-      <li>I am from South Korea and 23 years old.</li>
-      <li>I am 3rd in ITM major.</li>
-      <li>I love dogs and cats.</li>
-      <li>I play the piano, guitar, and drums.</li>
-      <li>My MBTI is ENTJ.</li>
-      <li>I like to play ping-pong, badminton, pool, and bowling.</li>
-    </ul>
+  <h1 id = "text"></h1>
+  <section class="card">
+  <h3> About me </h3>
+  <ul>
+    <li>My Korean name is Gyuhwan, but you can call me Jacob.</li>
+    <li>I am from South Korea and 23 years old.</li>
+    <li>I am 3rd in ITM major.</li>
+    <li>I love dogs and cats.</li>
+    <li>I play the piano, guitar, and drums.</li>
+    <li>My MBTI is ENTJ.</li>
+    <li>I like to play ping-pong, badminton, pool, and bowling.</li>
+  </ul>
 
   <p>This is my blog, which you may not understand! <a href="https://blog.naver.com/wrtyu0603" target="_blank"> <span class="this">Choi's Blog</span></a></p>
   <p>This is my online mall where you can buy some cute clothes! <a href="https://alpha-park.myspreadshop.com/" target="_blank"> <span class="this">Choi's Mall</span></a></p>
@@ -81,6 +84,15 @@
   <label for="slide3"></label>
   </div>
   </section>
+  
+  <section class = "card">
+  <h3>The place where I live right now:</h3>
+    <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAK0Kpd-1IPPqES4AYV6CZsc1qFl6ghies&callback=initMap" async defer></script>
+	<div id="map"></div>
+  <section>
+  
+
   
 </body>
 </html>
