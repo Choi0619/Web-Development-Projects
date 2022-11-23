@@ -113,9 +113,6 @@ body{
   background-image: url("../image/background.jpg");
   background-size: cover;
   background-attachment: fixed;
-  dispaly: flex;
-  flex-direction: row;
-  
 }
 
 .icon{
