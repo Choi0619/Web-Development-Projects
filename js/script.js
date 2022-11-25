@@ -27,7 +27,7 @@ window.initMap = initMap;
 
 
 // Font Animation
-var string = "come to Gyuhwan Choi's Website!";
+var string = " to Gyuhwan Choi's Website!";
 var array = string.split("");
 var timer;
 
