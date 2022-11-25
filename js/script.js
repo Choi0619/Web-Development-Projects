@@ -27,7 +27,7 @@ window.initMap = initMap;
 
 
 // Font Animation
-var string = "Welcome to Gyuhwan Choi's Website!";
+var string = " Welcome to Gyuhwan Choi's Website!";
 var array = string.split("");
 var timer;
 
@@ -37,7 +37,7 @@ function frameLooper () {
 	} else {
 		clearTimeout(timer);
 			}
-	loopTimer = setTimeout('frameLooper()',70); /* change 70 for speed */
+	loopTimer = setTimeout('frameLooper()',70);
 
 }
 frameLooper();
